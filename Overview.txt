@@ -1,0 +1,32 @@
+Name of Project: BlackBox
+Author: Leonardo M. De Ugarte R.
+
+
+Step One:
+Basic Folder Structure Complete
+
+Step Two:
+
+
+
+
+
+
+
+
+
+
+
+Tools Used in Project:
+
+Note: Web Links Included for More Information and/or
+Updated Versions if Current File in Use is Outdated.
+
+1. Normalize
+	https://necolas.github.io/normalize.css/
+2. Skeleton
+	http://getskeleton.com/
+3. Google Fonts
+	https://fonts.google.com/
+4. Coolors
+	https://coolors.co/d8d8f6-b18fcf-a99da9-2c2c34-1b1b1e

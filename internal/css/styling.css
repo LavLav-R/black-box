@@ -1,0 +1,75 @@
+/* Basic Setup */
+/* ----------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: #1B1B1E;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Color Scheme */
+/* ------------ */
+
+/* #D8D8F6 Light Lavender Like    */
+/* #B18FCF Lavender Like          */
+/* #A99DA9 Dark Somewhat          */
+/* #141418 Dark Grey or So        */
+/* #0D0D0E Lighter Shade of Black */
+
+/* Header */
+/* ------ */
+header {
+  background-color: #141418;
+  height: 100vh;
+  text-align: center;
+  color: #D8D8F6;
+  position: relative;
+  overflow: hidden;
+}
+
+.mainContent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* BlackBox */
+/* -------- */
+#blackBox {
+  transform: scale(1.5);
+  margin-bottom: 20px;
+  animation: fadeIn 1.5s;
+}
+
+#topBox:hover,
+#leftBox:hover,
+#rightBox:hover {
+  cursor: help;
+}
+
+/* SimpleText */
+/* ---------- */
+.textFormat {
+  font-weight: 200;
+  text-shadow: 1px 1px 3px #B18FCF, -1px -1px 3px #B18FCF;
+  width: 25%;
+  margin: auto;
+  animation: fadeIn 1.5s;
+}
+
+.textFormat:hover {
+  cursor: pointer;
+}
+
+/* FadeInEffects */
+/* ------------- */
+/*Regular*/
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
